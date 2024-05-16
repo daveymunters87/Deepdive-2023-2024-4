@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scholen</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
+            <div class="md:hidden">
+                <button id="mobile-menu-toggle" type="button"
+                    class="text-gray-500 hover:text-gray-600 focus:outline-none">
+                    <span class="sr-only">Open mobile menu</span>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Home</a>
+                <a href="about_us.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Over ons</a>
+                <a href="licenties.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Licenties</a>
+                <a href="contact.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Contact</a>
+                <div class="flex items-center space-x-3">
+                    <a href="winkelmand.html" class="text-gray-500 hover:text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20   " height="20" fill="currentColor"
+                            class="bi bi-cart4" viewBox="0 0 16 16">
+                            <path
+                                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-3">
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#">
+                        <img src="fotos/logo.png" class="h-28 w-auto" alt="logo" />
+                    </a>
+                </div>
+            </div>
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <a href="index.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Home</a>
+                    <a href="about_us.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Over
+                        ons</a>
+                    <a href="licenties.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Licenties</a>
+                    <a href="contact.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Contact</a>
+                    <a href="winkelmand.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Winkelmand</a>
+                </div>
+            </div>
+    </nav>
+
+
+    <div class="px-12">
+        <header class="mx-0">
+            <div class="w-full bg-center bg-cover"
+                style="background-image: url(https://www.nt2.nl/afbeeldingen/eva_fotos/pagina_2_op_school.jpg);">
+                <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
+                    <div class="text-center">
+                        <div class="container px-4 mx-auto">
+                            <div class="max-w-4xl mx-auto text-center">
+                                <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">Transformeer het
+                                    Leren met Ontdek Jouw Superkrachten</h2>
+                                <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
+                                    Een revolutionair onderwijsprogramma dat naadloos integreert met uw curriculum om
+                                    kinderen essentiële levensvaardigheden te bieden
+                                </p>
+                                <a class="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                                    href="#">Vraag een demo aan</a>
+                                <a class="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-red-700 rounded hover:bg-red-800 text-gray-100 transition duration-200"
+                                    href="#">lees meer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+            body {
+                font-family: 'Montserrat';
+            }
+        </style>
+
+        <div class="">
+            <div class="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
+                <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
+                    <div class="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
+                        <div>
+                            <h2 class="text-4xl font-bold tracking-tight text-gray-900">Programma Overzicht</h2>
+                            <p class="mt-4 text-gray-500">Ons programma biedt een holistische benadering van onderwijs, gericht op persoonlijke ontwikkeling, groeimindset, en emotionele intelligentie, gestructureerd rond een door ons aangepaste Maslow’s piramide."</p>
+                        </div>
+                        <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
+                            <img src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg" alt=""
+                                class="object-cover object-center">
+                        </div>
+                    </div>
+                    <div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
+                        <div class="sm:flex lg:block">
+                            <div class="sm:flex-shrink-0">
+                                <img class="h-16 w-16"
+                                    src="https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg" alt="">
+                            </div>
+                            <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                                <h3 class="text-sm font-medium text-gray-900">Basisbehoeften</h3>
+                                <p class="mt-2 text-sm text-gray-500">It&#039;s not actually free we just price it into
+                                    the products. Someone&#039;s paying for it, and it&#039;s not us.</p>
+                            </div>
+                        </div>
+                        <div class="sm:flex lg:block">
+                            <div class="sm:flex-shrink-0">
+                                <img class="h-16 w-16"
+                                    src="https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg" alt="">
+                            </div>
+                            <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                                <h3 class="text-sm font-medium text-gray-900">Zekerheid & Veiligheid</h3>
+                                <p class="mt-2 text-sm text-gray-500">If it breaks in the first 10 years we&#039;ll
+                                    replace it. After that you&#039;re on your own though.</p>
+                            </div>
+                        </div>
+                        <div class="sm:flex lg:block">
+                            <div class="sm:flex-shrink-0">
+                                <img class="h-16 w-16"
+                                    src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                            </div>
+                            <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                                <h3 class="text-sm font-medium text-gray-900">Liefde & Verbondenheid</h3>
+                                <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                                    friends for something of theirs. Don&#039;t send it here though.</p>
+                            </div>
+                        </div>
+                        <div class="sm:flex lg:block">
+                            <div class="sm:flex-shrink-0">
+                                <img class="h-16 w-16"
+                                    src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                            </div>
+                            <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                                <h3 class="text-sm font-medium text-gray-900">Eigenwaarde</h3>
+                                <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                                    friends for something of theirs. Don&#039;t send it here though.</p>
+                            </div>
+                        </div>
+                        <div class="sm:flex lg:block">
+                            <div class="sm:flex-shrink-0">
+                                <img class="h-16 w-16"
+                                    src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                            </div>
+                            <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                                <h3 class="text-sm font-medium text-gray-900">Zelfontwikkeling</h3>
+                                <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                                    friends for something of theirs. Don&#039;t send it here though.</p>
+                            </div>
+                        </div>
+                        <div class="sm:flex lg:block">
+                            <div class="sm:flex-shrink-0">
+                                <img class="h-16 w-16"
+                                    src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                            </div>
+                            <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                                <h3 class="text-sm font-medium text-gray-900">Droom</h3>
+                                <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                                    friends for something of theirs. Don&#039;t send it here though.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+                    <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Voordelen voor de School</h1>
+                    <div
+                        class="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
+                        <div>
+                            <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
+                                semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
+                                viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
+                                Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
+                            <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et.
+                                Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel.
+                                Mauris varius vulputate et ultrices hac adipiscing egestas.</p>
+                        </div>
+                        <div>
+                            <p>Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id
+                                dignissim eget. Est augue maecenas risus nulla ultrices congue nunc tortor.</p>
+                            <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et.
+                                Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel.
+                                Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
+                                et ut. Ac lorem vel integer orci.</p>
+                        </div>
+                    </div>
+                    <div class="mt-10 flex">
+                        <a href="#"
+                            class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
+                            started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden pt-16 lg:pt-36">
+            </div>
+
+
+
+            <div class="flex flex-wrap content-evenly gap-10 justify-center">
+                <div
+                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg"
+                            src="https://happykidshappyparents.nl/wp-content/uploads/2015/01/Foto-Happy-Kids-Gelukkige-Kinderen-op-school-voor-een-betere-toekomst-essentiele-vaardigheden-21ste-eeuw-vaardigheden-21st-centry-skills-exective-functions-exectieve-functies-Happy-Kids-Happy-Parents-Fotolia_65720627_XS-Conrad-van-Pruijssen.jpg"
+                            alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                Stap-voor-Stap Gids</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ons team ondersteunt uw school bij
+                            elke stap van de implementatie, van initiële setup tot voortdurende ondersteuning</p>
+                        <a href="#"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+
+
+                <div
+                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg"
+                            src="https://margrietschoolwoerden-live-f9d978f06dd0-37340d5.divio-media.net/filer_public_thumbnails/filer_public/35/19/35190298-d7bb-4647-baed-b6288a55d82b/picturesshutterstock_24737248.jpg__1200x1200_q100_subsampling-2.jpg"
+                            alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Training en
+                                Resources</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Wij bieden uitgebreide trainingen
+                            en middelen om leerkrachten volledig uit te rusten voor het gebruik van het programma.</p>
+                        <a href="#"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg"
+                            src="https://scontent-ams4-1.xx.fbcdn.net/v/t31.18172-8/16178812_1352472761484928_6542701001838912551_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-wkFdYGprY0Q7kNvgFBls62&_nc_ht=scontent-ams4-1.xx&oh=00_AYDtoV--4eTPVoVdJGU_Sy4h55DUnFPv2JFlFiqf55ONcg&oe=666D3FC8"
+                            alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Aanmelden
+                                voor een Proefperiode</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Start met een gratis proefperiode
+                            om te zien hoe ons programma kan helpen bij het vormgeven van de toekomst van uw studenten.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="dark:bg-gray-100 dark:text-gray-800">
+            <div class="container px-16 py-36 mx-auto">
+                <div class="grid items-center gap-4 xl:grid-cols-5">
+                    <div class="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+                        <h2 class="text-4xl font-bold">Wat zeggen mensen over ons?</h2>
+                        <p class="dark:text-gray-600">Pri ex magna scaevola moderatius. Nullam accommodare no vix, est
+                            ei
+                            diceret alienum, et sit cetero malorum. Et sea iudico consequat, est sanctus adipisci ex.
+                        </p>
+                    </div>
+                    <div class="p-6 xl:col-span-3">
+                        <div class="grid gap-4 md:grid-cols-2">
+                            <div class="grid content-center gap-4">
+                                <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                    <p>An audire commodo habemus cum. Ne sed corrumpit repudiandae. Tota aliquip
+                                        democritum
+                                        pro in, nec democritum intellegam ne. Propriae volutpat dissentiet ea sit, nec
+                                        at
+                                        lorem inani tritani, an ius populo perfecto vituperatoribus. Eu cum case modus
+                                        salutandi, ut eum vocent sensibus reprehendunt.</p>
+                                    <div class="flex items-center mt-4 space-x-4">
+                                        <img src="https://source.unsplash.com/50x50/?portrait?1" alt=""
+                                            class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                        <div>
+                                            <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                            <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                    <p>Sit wisi sapientem ut, pri civibus temporibus voluptatibus et, ius cu hinc
+                                        fabulas.
+                                        Nam meliore minimum et, regione convenire cum id. Ex pro eros mucius
+                                        consectetuer,
+                                        pro magna nulla nonumy ne, eam putent iudicabit consulatu cu.</p>
+                                    <div class="flex items-center mt-4 space-x-4">
+                                        <img src="https://source.unsplash.com/50x50/?portrait?2" alt=""
+                                            class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                        <div>
+                                            <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                            <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid content-center gap-4">
+                                <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                    <p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo
+                                        errem
+                                        elaboraret. Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea
+                                        noster
+                                        senserit eam, ferri omittantur ei nec. Id mel solet libris efficiantur, commune
+                                        explicari et eos. Case movet ad est, sed tota vocent appetere ea.</p>
+                                    <div class="flex items-center mt-4 space-x-4">
+                                        <img src="https://source.unsplash.com/50x50/?portrait?3" alt=""
+                                            class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                        <div>
+                                            <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                            <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                    <p>Te omnes virtute volutpat sed. Ei esse eros interesset vel, ei populo denique
+                                        ocurreret vix, eu cum pertinax mandamus vituperatoribus. Solum nihil luptatum
+                                        per
+                                        ex, ei amet viderer eos. Ea illum labitur mnesarchum pro. Eius meis salutandi ei
+                                        nam, alterum expetenda et nec. Expetenda intellegat at eum, per mazim sanctus
+                                        honestatis ad. Ei noluisse invenire vix. Te ancillae patrioque qui, probo
+                                        bonorum
+                                        vivendum ex vim.</p>
+                                    <div class="flex items-center mt-4 space-x-4">
+                                        <img src="https://source.unsplash.com/50x50/?portrait?4" alt=""
+                                            class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                        <div>
+                                            <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                            <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mb-4">
+
+            <div
+                class="relative isolate overflow-hidden bg-white px-6 py-20 text-center sm:rounded-3xl sm:border sm:border-gray-100 sm:px-16 sm:shadow-sm">
+
+                <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                    Download hier de brochure
+                </h2>
+
+                <h3 class="mx-auto mt-6 max-w-xl pb-6 text-lg leading-8 text-gray-500">
+                    Download onze volledige brochure voor een diepgaande blik op het programma en de implementatie ervan
+                </h3>
+
+                <button
+                    class="bg-red-700 hover:bg-red-800 text-gray-100 font-bold py-2 px-4 rounded inline-flex items-center">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                    </svg>
+                    <span>Download</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <footer class="w-full flex flex-col space-y-5 justify-center bg-gray-100 p-5">
+        <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+            <a class="hover:text-gray-900" href="contact.html">Contact</a>
+            <a class="hover:text-gray-900" href="#">Privacy beleid</a>
+            <a class="hover:text-gray-900" href="#">Gebruiksvoorwaarden</a>
+        </nav>
+
+
+        <div class="flex justify-center space-x-5">
+            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            </a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+            </a>
+        </div>
+        <p class="text-center text-gray-700 font-medium">&copy; 2024 Company Ltd. All rights reservered.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuToggle.addEventListener('click', function () {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
