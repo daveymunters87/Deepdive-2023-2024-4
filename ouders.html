@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ouders</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
+            <div class="md:hidden">
+                <button id="mobile-menu-toggle" type="button"
+                    class="text-gray-500 hover:text-gray-600 focus:outline-none">
+                    <span class="sr-only">Open mobile menu</span>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Home</a>
+                <a href="about_us.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Over ons</a>
+                <a href="licenties.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Licenties</a>
+                <a href="contact.html"
+                    class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Contact</a>
+                <div class="flex items-center space-x-3">
+                    <a href="winkelmand.html" class="text-gray-500 hover:text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20   " height="20" fill="currentColor"
+                            class="bi bi-cart4" viewBox="0 0 16 16">
+                            <path
+                                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-3">
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#">
+                        <img src="fotos/logo.png" class="h-28 w-auto" alt="logo" />
+                    </a>
+                </div>
+            </div>
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <a href="index.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Home</a>
+                    <a href="about_us.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Over
+                        ons</a>
+                    <a href="licenties.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Licenties</a>
+                    <a href="contact.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Contact</a>
+                    <a href="winkelmand.html"
+                        class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Winkelmand</a>
+                </div>
+            </div>
+    </nav>
+
+
+    <div class="px-12">
+        <header class="mx-0">
+            <div class="w-full bg-center bg-cover"
+                style="background-image: url(https://www.praktijkpep.nl/wp-content/uploads/blije-kinderen.png);">
+                <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
+                    <div class="text-center">
+                        <div class="container px-4 mx-auto">
+                            <div class="max-w-4xl mx-auto text-center">
+                                <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">Onthul de verborgen
+                                    potentieel van jouw kind</h2>
+                                <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
+                                    Een unieke leerervaring die kinderen helpt groeien in alle aspecten van het leven –
+                                    van persoonlijke ontwikkeling tot het overwinnen van angsten.
+                                </p>
+                                <a class="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                                    href="#">begin vandaag gratis</a>
+                                <a class="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-red-700 rounded hover:bg-red-800 text-gray-100 transition duration-200"
+                                    href="#">lees meer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+            body {
+                font-family: 'Montserrat';
+            }
+        </style>
+
+
+<div class="">
+    <div class="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
+        <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
+            <div class="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
+                <div>
+                    <h2 class="text-4xl font-bold tracking-tight text-gray-900">Programma Details</h2>
+                    <p class="mt-4 text-gray-500">Ons online leerprogramma is ontworpen om elk kind te ondersteunen bij hun persoonlijke en sociale ontwikkeling. Door middel van zes uitgebreide modules leert jouw kind over alles van basisbehoeften tot het bereiken van hun grootste dromen.</p>
+                </div>
+                <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
+                    <img src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg" alt=""
+                        class="object-cover object-center">
+                </div>
+            </div>
+            <div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
+                <div class="sm:flex lg:block">
+                    <div class="sm:flex-shrink-0">
+                        <img class="h-16 w-16"
+                            src="https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg" alt="">
+                    </div>
+                    <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 class="text-sm font-medium text-gray-900">Basisbehoeften</h3>
+                        <p class="mt-2 text-sm text-gray-500">It&#039;s not actually free we just price it into
+                            the products. Someone&#039;s paying for it, and it&#039;s not us.</p>
+                    </div>
+                </div>
+                <div class="sm:flex lg:block">
+                    <div class="sm:flex-shrink-0">
+                        <img class="h-16 w-16"
+                            src="https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg" alt="">
+                    </div>
+                    <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 class="text-sm font-medium text-gray-900">Zekerheid & Veiligheid</h3>
+                        <p class="mt-2 text-sm text-gray-500">If it breaks in the first 10 years we&#039;ll
+                            replace it. After that you&#039;re on your own though.</p>
+                    </div>
+                </div>
+                <div class="sm:flex lg:block">
+                    <div class="sm:flex-shrink-0">
+                        <img class="h-16 w-16"
+                            src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                    </div>
+                    <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 class="text-sm font-medium text-gray-900">Liefde & Verbondenheid</h3>
+                        <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                            friends for something of theirs. Don&#039;t send it here though.</p>
+                    </div>
+                </div>
+                <div class="sm:flex lg:block">
+                    <div class="sm:flex-shrink-0">
+                        <img class="h-16 w-16"
+                            src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                    </div>
+                    <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 class="text-sm font-medium text-gray-900">Eigenwaarde</h3>
+                        <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                            friends for something of theirs. Don&#039;t send it here though.</p>
+                    </div>
+                </div>
+                <div class="sm:flex lg:block">
+                    <div class="sm:flex-shrink-0">
+                        <img class="h-16 w-16"
+                            src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                    </div>
+                    <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 class="text-sm font-medium text-gray-900">Zelfontwikkeling</h3>
+                        <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                            friends for something of theirs. Don&#039;t send it here though.</p>
+                    </div>
+                </div>
+                <div class="sm:flex lg:block">
+                    <div class="sm:flex-shrink-0">
+                        <img class="h-16 w-16"
+                            src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+                    </div>
+                    <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 class="text-sm font-medium text-gray-900">Droom</h3>
+                        <p class="mt-2 text-sm text-gray-500">If you don&#039;t like it, trade it to one of your
+                            friends for something of theirs. Don&#039;t send it here though.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div class="bg-white py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+                    <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Voordelen voor Jouw Kind</h1>
+                    <div
+                        class="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
+                        <div>
+                            <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
+                                semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
+                                viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
+                                Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
+                            <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et.
+                                Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel.
+                                Mauris varius vulputate et ultrices hac adipiscing egestas.</p>
+                        </div>
+                        <div>
+                            <p>Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id
+                                dignissim eget. Est augue maecenas risus nulla ultrices congue nunc tortor.</p>
+                            <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et.
+                                Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel.
+                                Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
+                                et ut. Ac lorem vel integer orci.</p>
+                        </div>
+                    </div>
+                    <div class="mt-10 flex">
+                        <a href="#"
+                            class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
+                            started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden pt-16 lg:pt-20">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="flex flex-wrap content-evenly gap-10 justify-center">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg"
+                    src="https://happykidshappyparents.nl/wp-content/uploads/2015/01/Foto-Happy-Kids-Gelukkige-Kinderen-op-school-voor-een-betere-toekomst-essentiele-vaardigheden-21ste-eeuw-vaardigheden-21st-centry-skills-exective-functions-exectieve-functies-Happy-Kids-Happy-Parents-Fotolia_65720627_XS-Conrad-van-Pruijssen.jpg"
+                    alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Inschrijfformulier
+                    </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Meld je kind nu aan en begin met een gratis
+                    introductieles. Ontdek samen de superkrachten van jouw kind!"</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                    Read more
+                </a>
+            </div>
+        </div>
+
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg"
+                    src="https://www.centrumjong.nl/wp-content/uploads/2021/12/Middelbare-school-kiezen-scaled.jpg"
+                    alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Probeer een Gratis
+                        Les</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Een duidelijke, verleidelijke knop die
+                    ouders uitnodigt om het programma zonder risico uit te proberen</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                    Read more
+                </a>
+            </div>
+        </div>
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg"
+                    src="https://www.angelibebe.com/blog/wp-content/uploads/2016/05/happy-children-feature-1050x733.jpg"
+                    alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Probeer een Gratis
+                        Les</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Een duidelijke, verleidelijke knop die
+                    ouders uitnodigt om het programma zonder risico uit te proberen</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                    Read more
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section class="dark:bg-gray-100 mx-12 dark:text-gray-800">
+        <div class="container my-12 mx-auto">
+            <div class="grid items-center gap-4 xl:grid-cols-5">
+                <div class="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+                    <h2 class="text-4xl font-bold">Wat zeggen mensen over ons?</h2>
+                    <p class="dark:text-gray-600">Pri ex magna scaevola moderatius. Nullam accommodare no vix, est ei
+                        diceret alienum, et sit cetero malorum. Et sea iudico consequat, est sanctus adipisci ex.</p>
+                </div>
+                <div class="p-6 xl:col-span-3">
+                    <div class="grid gap-4 md:grid-cols-2">
+                        <div class="grid content-center gap-4">
+                            <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                <p>An audire commodo habemus cum. Ne sed corrumpit repudiandae. Tota aliquip democritum
+                                    pro in, nec democritum intellegam ne. Propriae volutpat dissentiet ea sit, nec at
+                                    lorem inani tritani, an ius populo perfecto vituperatoribus. Eu cum case modus
+                                    salutandi, ut eum vocent sensibus reprehendunt.</p>
+                                <div class="flex items-center mt-4 space-x-4">
+                                    <img src="https://source.unsplash.com/50x50/?portrait?1" alt=""
+                                        class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                    <div>
+                                        <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                        <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                <p>Sit wisi sapientem ut, pri civibus temporibus voluptatibus et, ius cu hinc fabulas.
+                                    Nam meliore minimum et, regione convenire cum id. Ex pro eros mucius consectetuer,
+                                    pro magna nulla nonumy ne, eam putent iudicabit consulatu cu.</p>
+                                <div class="flex items-center mt-4 space-x-4">
+                                    <img src="https://source.unsplash.com/50x50/?portrait?2" alt=""
+                                        class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                    <div>
+                                        <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                        <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid content-center gap-4">
+                            <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                <p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem
+                                    elaboraret. Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster
+                                    senserit eam, ferri omittantur ei nec. Id mel solet libris efficiantur, commune
+                                    explicari et eos. Case movet ad est, sed tota vocent appetere ea.</p>
+                                <div class="flex items-center mt-4 space-x-4">
+                                    <img src="https://source.unsplash.com/50x50/?portrait?3" alt=""
+                                        class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                    <div>
+                                        <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                        <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-6 rounded shadow-md dark:bg-gray-50">
+                                <p>Te omnes virtute volutpat sed. Ei esse eros interesset vel, ei populo denique
+                                    ocurreret vix, eu cum pertinax mandamus vituperatoribus. Solum nihil luptatum per
+                                    ex, ei amet viderer eos. Ea illum labitur mnesarchum pro. Eius meis salutandi ei
+                                    nam, alterum expetenda et nec. Expetenda intellegat at eum, per mazim sanctus
+                                    honestatis ad. Ei noluisse invenire vix. Te ancillae patrioque qui, probo bonorum
+                                    vivendum ex vim.</p>
+                                <div class="flex items-center mt-4 space-x-4">
+                                    <img src="https://source.unsplash.com/50x50/?portrait?4" alt=""
+                                        class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                    <div>
+                                        <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                        <p class="text-sm dark:text-gray-600">CTO of Company Co.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-white py-16 sm:py-24 lg:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <h2 class="inline sm:block">Want product news and updates?</h2>
+                <p class="inline sm:block">Sign up for our newsletter.</p>
+            </div>
+            <form class="mt-10 max-w-md">
+                <div class="flex gap-x-4">
+                    <label for="email-address" class="sr-only">Email address</label>
+                    <input id="email-address" name="email" type="email" autocomplete="email" required
+                        class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                        placeholder="Enter your email">
+                    <button type="submit"
+                        class="flex-none rounded-md bg-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">Subscribe</button>
+                </div>
+                <p class="mt-4 text-sm leading-6 text-gray-900">We care about your data. Read our <a href="#"
+                        class="font-semibold text-red-600 hover:text-red-500">privacy&nbsp;policy</a>.</p>
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer class="w-full flex flex-col space-y-5 justify-center bg-gray-100 p-5">
+        <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+            <a class="hover:text-gray-900" href="contact.html">Contact</a>
+            <a class="hover:text-gray-900" href="#">Privacy beleid</a>
+            <a class="hover:text-gray-900" href="#">Gebruiksvoorwaarden</a>
+        </nav>
+
+
+        <div class="flex justify-center space-x-5">
+            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            </a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+            </a>
+        </div>
+        <p class="text-center text-gray-700 font-medium">&copy; 2024 Company Ltd. All rights reservered.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuToggle.addEventListener('click', function () {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
