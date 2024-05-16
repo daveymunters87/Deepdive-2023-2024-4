@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="fotos/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
+            <div class="md:hidden">
+                <button id="mobile-menu-toggle" type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none">
+                    <span class="sr-only">Open mobile menu</span>
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Home</a>
+                <a href="about_us.html" class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Over ons</a>
+                <a href="licenties.html" class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Licenties</a>
+                <a href="contact.html" class="nav-link hover:text-gray-500 transition duration-300 transform hover:scale-110">Contact</a>
+                <div class="flex items-center space-x-3">
+                    <a href="winkelmand.html" class="text-gray-500 hover:text-gray-600 ransition duration-300 transform hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20   " height="20" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                          </svg>
+                    </a>
+                </div>
+            </div>           
+            <div class="flex items-center space-x-3">
+                <div class="hidden md:flex items-center space-x-8">
+                <a href="#">
+                    <img src="fotos/logo.png" class="h-28 w-auto" alt="logo" />
+                </a>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Home</a>
+                <a href="about_us.html" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Over ons</a>
+                <a href="licenties.html" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Licenties</a>
+                <a href="contact.html" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Contact</a>
+                <a href="winkelmand.html" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium hover:text-gray-500 transition duration-300 transform hover:scale-110">Winkelmand</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="bg-gradient-to-b from-white-50 to-grey-200">
+        <section class="py-10 sm:py-16 lg:py-24">
+            <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+                    <div>
+                        <h1 class="text-4xl font-bold text-black sm:text-6xl lg:text-7xl font-sans">
+                            Welkom bij Ontdek Jouw Superkrachten
+                            <div class="relative inline-flex">
+                                <span class="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80]"></span>
+                                <h1 class="relative text-lg font-bold text-black sm:text-md lg:text-lg">Waar elk kind een held is!</h1>
+                            </div>
+                        </h1>
+    
+                        <div class="mt-8 flex flex-wrap justify-start gap-10">
+                            <a class="block w-full sm:w-auto md:w-28 lg:w-32 xl:w-40 px-6 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 rounded bg-red-600 text-center" href="#">
+                              Ouders
+                            </a>
+                            <a class="block w-full sm:w-auto md:w-28 lg:w-32 xl:w-40 px-6 py-3 text-sm font-medium text-red-600 shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 rounded text-center" href="#">
+                              Onderwijs
+                            </a>
+                          </div>
+                    </div>
+    
+                    <div>
+                        <img class="w-full rounded-2xl" src="https://getwallpapers.com/wallpaper/full/5/3/6/834405-most-popular-learning-wallpapers-1920x1080-for-iphone-5.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="dark:bg-gray-100 dark:text-gray-800">
+        <div class="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-900">Wat Bieden Wij?</h2>
+                <p class="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-600">Ontdek Jouw Superkrachten" is een interactief leerplatform dat zich richt op</p>
+            </div>
+            <div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+                <div>
+                    <h3 class="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">Onze werkwijze</h3>
+                    <p class="mt-3 text-lg dark:text-gray-600">Elke module is zorgvuldig ontworpen rond een aangepaste versie van Maslow's piramide, om zo een logische opbouw en voortgang te garanderen. Met meer dan 30 lessen, rijk aan videocontent en interactieve quizzen, bieden we een gestructureerde weg naar persoonlijke groei en zelfontplooiing.
+                    </p>
+                    <div class="mt-12 space-y-12">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium leading-6 dark:text-gray-900">Persoonlijke Ontwikkeling:</h4>
+                                <p class="mt-2 dark:text-gray-600">Het streven naar groei en verbetering op individueel niveau door bewustwording, zelfreflectie en het ontwikkelen van vaardigheden.
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium leading-6 dark:text-gray-900">Growth-Mindset</h4>
+                                <p class="mt-2 dark:text-gray-600">Een mentaliteit die gelooft in de mogelijkheid van persoonlijke groei door inzet en het omarmen van uitdagingen als kansen.</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium leading-6 dark:text-gray-900">Fysieke, Mentale en Sociaal Emotionele Ontwikkeling</h4>
+                                <p class="mt-2 dark:text-gray-600"> De integrale groei van een persoon, inclusief lichamelijke gezondheid, mentale veerkracht en emotionele intelligentie, evenals het vermogen om gezonde relaties te ontwikkelen.</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium leading-6 dark:text-gray-900">Talentontwikkeling</h4>
+                                <p class="mt-2 dark:text-gray-600">Het proces van identificatie, koesteren en versterken van natuurlijke vaardigheden en talenten door gerichte training en educatie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div aria-hidden="true" class="mt-10 lg:mt-0">
+                    <img src="https://source.unsplash.com/random/360x480" alt="" class="mx-auto rounded-lg shadow-lg dark:bg-gray-500">
+                </div>
+            </div>
+            <div>
+                <div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center mb-28">
+                    <div class="lg:col-start-2">
+                        <h3 class="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">Een Nieuwe Benadering van Leren</h3>
+                        <p class="mt-3 text-lg dark:text-gray-600">We bieden volledige ondersteuning en minimale voorbereidingstijd voor leerkrachten, terwijl ouders thuis eenvoudig kunnen aansluiten bij het leerproces:
+                        </p>
+                        <div class="mt-12 space-y-12">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg font-medium leading-6 dark:text-gray-900">30+ Interactieve Lessen</h4>
+                                    <p class="mt-2 dark:text-gray-600">Elk voorzien van boeiende video's en activiteiten die leren leuk maken.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg font-medium leading-6 dark:text-gray-900">Superkrachten Dagboek</h4>
+                                    <p class="mt-2 dark:text-gray-600">Een persoonlijk journaal voor kinderen om hun leerervaringen en groei bij te houden.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg font-medium leading-6 dark:text-gray-900">Gemeenschap en Ondersteuning:</h4>
+                                    <p class="mt-2 dark:text-gray-600">Samen bouwen aan een sterke toekomst voor onze kinderen.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg font-medium leading-6 dark:text-gray-900">Certificatie van Voltooiing:</h4>
+                                    <p class="mt-2 dark:text-gray-600">Erkenning en beloning na elke module, culminerend in het behalen van het 'Droom' certificaat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
+                        <img src="https://source.unsplash.com/random/361x481" alt="" class="mx-auto rounded-lg shadow-lg dark:bg-gray-500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="w-full flex flex-col space-y-5 justify-center bg-gray-100 p-5">  
+        <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+            <a class="hover:text-gray-900" href="contact.html">Contact</a>
+            <a class="hover:text-gray-900" href="#">Privacy beleid</a>
+            <a class="hover:text-gray-900" href="#">Gebruiksvoorwaarden</a>
+        </nav>
+
+        <div class="flex justify-center space-x-5">
+            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            </a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+            </a>
+        </div>
+        <p class="text-center text-gray-700 font-medium">&copy; 2024 Company Ltd. All rights reservered.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+    
+            mobileMenuToggle.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
