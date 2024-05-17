@@ -5,11 +5,6 @@ Welkom bij "Ontdek jouw superkrachten", een innovatieve online winkel waar ouder
 - Introductie
 - Kenmerken
 - Installatie
-- Gebruik
-- Structuur van de code
-- Bijdragen
-- Licentie
-- Contact
 
 # Introductie
 "Ontdek jouw superkrachten" biedt een breed scala aan educatieve programma's die zijn ontworpen om kinderen te helpen hun sterke punten te identificeren en te ontwikkelen. Onze programma's zijn geschikt voor zowel thuisgebruik door ouders als voor gebruik in scholen door docenten.
@@ -17,9 +12,6 @@ Welkom bij "Ontdek jouw superkrachten", een innovatieve online winkel waar ouder
 # Kenmerken
 - Breed Assortiment: Een verscheidenheid aan programma's gericht op verschillende leeftijdsgroepen en vaardigheden.
 - Eenvoudig Aankoopproces: Gemakkelijke en veilige betalingsmogelijkheden voor zowel ouders als scholen.
-- Toegankelijk Materiaal: Directe toegang tot gekochte programma's via een persoonlijke account.
-- Ondersteuning en Begeleiding: Klantenservice beschikbaar voor vragen en ondersteuning bij het gebruik van de programma's.
-- Veiligheid en Privacy: Alle gebruikersgegevens worden veilig opgeslagen en verwerkt volgens de GDPR-richtlijnen.
 
 # Installatie
 - Het installeren van de software voor lokaal gebruik is eenvoudig. Volg deze stappen:
