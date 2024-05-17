@@ -22,5 +22,5 @@ git clone git@github.com:daveymunters87/Deepdive-2023-2024-4.git
 - Navigeer naar de projectdirectory:
 cd Deepdive-2023-2024-4
 
-- Open je browser en ga naar http://localhost:3000 om de website te bekijken.
+- Start een liveserver en ga naar http://localhost:3000 om de website te bekijken.
 
