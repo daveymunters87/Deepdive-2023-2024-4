@@ -28,7 +28,7 @@ Welkom bij "Ontdek jouw superkrachten", een innovatieve online winkel waar ouder
 git clone git@github.com:daveymunters87/Deepdive-2023-2024-4.git
 
 - Navigeer naar de projectdirectory:
-cd ontdek-jouw-superkrachten
+cd Deepdive-2023-2024-4
 
 - Open je browser en ga naar http://localhost:3000 om de website te bekijken.
 
